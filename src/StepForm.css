@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .step {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .step.current {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .step.filled {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .form-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-step:not(:first-child) {
+    display: none;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  
